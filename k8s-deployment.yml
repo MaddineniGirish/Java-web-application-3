@@ -19,7 +19,7 @@ spec:
                            name: worker-1
                         containers:
                                 - name: demo-conatiner
-                                  image: girishdocker18/java-web-application:23
+                                  image: girishdocker18/java-web-application:${BUILD_NUMBER}
                                   ports:
                                   - containerPort: 8080
 ---
