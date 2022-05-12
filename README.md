@@ -24,3 +24,5 @@ In this Project,
 => Now i am setting up the plugin called kubernetes continous deploy in manage jenkins and configuring the plugin to access the kubernetes cluster by providing .kube/config file and deploying the application in kubernetes. 
 
 => Now i can access the application by using ip/dns of kubernetes master/any node ip of kubernetes using k8's service NodePort instead application target port.
+
+=> Here we are deploying our containerized application in kuberenetes to manage the containers when it goes down. so, there k8 will UP the application by creating a new pod with container to meet desired state of replicas we provided in k8's manifest.
