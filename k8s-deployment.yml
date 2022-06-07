@@ -8,12 +8,12 @@ spec:
         replicas: 2
         selector:
                 matchLabels:
-                        app: maven
+                        app: java
         template:
                 metadata:
                         name: Demo-pod
                         labels:
-                                app: maven
+                                app: java
                 spec:
                         nodeSelector:
                            name: worker-1
@@ -34,5 +34,5 @@ spec:
                 - port: 80
                   targetPort: 8080
         selector:
-                app: maven
+                app: java
 
