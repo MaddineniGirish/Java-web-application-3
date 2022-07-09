@@ -38,14 +38,3 @@
     service:
       name: httpd
       state: started
-
-
-ansible-playbook demo.yml -e session=demo1
-ansible-playbook demo.yml 
-mkdir group_vars
-vi webserver.yml
-name: git
-mkdir host_vars
-vi 172.168.0.1.yml
-name: 
-
