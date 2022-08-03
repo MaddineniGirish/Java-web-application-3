@@ -15,8 +15,8 @@ spec:
                         labels:
                                 app: java
                 spec:
-                        nodeSelector:
-                           name: worker-1
+                        #nodeSelector:
+                           #name: worker-1
                         containers:
                                 - name: demo-conatiner
                                   image: girishdocker18/java-web-application:${BUILD_NUMBER}
